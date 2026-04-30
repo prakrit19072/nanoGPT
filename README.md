@@ -11,3 +11,13 @@ Weights matrix (After k.q) for the first token of a batch is always 1 (after nor
 
 <img width="1188" height="163" alt="image" src="https://github.com/user-attachments/assets/ec4d07ad-6be8-45db-9219-2912e20f1413" />
 
+
+
+Mapping the attention Heads initially on a small model, I saw very less attention values being given to other tokens
+<img width="556" height="446" alt="Screenshot 2026-04-30 at 11 42 32 AM" src="https://github.com/user-attachments/assets/eac336d0-d597-414f-acb0-c2e507795b2d" />
+
+Increasing the Embedding layers, number of iterations and the context size (block size), the heat matrix started getting better . I see things like Jane Attentding to girl and older values
+
+<img width="450" height="428" alt="Screenshot 2026-04-30 at 12 11 52 PM" src="https://github.com/user-attachments/assets/3b0ff023-57a8-475b-b562-260df860332f" />
+
+
