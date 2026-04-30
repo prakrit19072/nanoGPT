@@ -21,3 +21,10 @@ Increasing the Embedding layers, number of iterations and the context size (bloc
 <img width="450" height="428" alt="Screenshot 2026-04-30 at 12 11 52 PM" src="https://github.com/user-attachments/assets/3b0ff023-57a8-475b-b562-260df860332f" />
 
 
+Used TinyLlama-1.1B to see the attention map with the pretrained model
+<img width="662" height="566" alt="image" src="https://github.com/user-attachments/assets/3cc2ba65-ce45-4186-9c11-d6123bbfdfb0" />
+
+We can clearly see the Last Jane attending heavily to first Jane
+
+
+
